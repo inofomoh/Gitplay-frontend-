@@ -14,7 +14,7 @@ async function uploadFile() {
     output.textContent = "Uploading...";
 
     try {
-        const response = await fetch("http://localhost:8000/upload", {
+        const response = await fetch("fetch("https://gitplay-backend.onrender.com/api/something")", {
             method: "POST",
             body: formData
         });
